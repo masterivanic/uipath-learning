@@ -1,0 +1,48 @@
+﻿{
+  "Metadata": {
+    "Id": "734d405c-145f-44c5-920c-ec0bae19c23b",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "DBConnection",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Container",
+        "key": "container",
+        "type": "container",
+        "input": true,
+        "tableView": false,
+        "components": [
+          {
+            "key": "tabs",
+            "type": "tabs",
+            "input": false,
+            "tableView": false,
+            "label": "Tabs",
+            "components": [
+              {
+                "label": "Tab 1",
+                "key": "tab1",
+                "components": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}
