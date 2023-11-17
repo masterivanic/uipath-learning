@@ -43,10 +43,19 @@
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
       <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
       <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Data</AssemblyReference>
       <AssemblyReference>System.Data.Common</AssemblyReference>
@@ -55,48 +64,40 @@
       <AssemblyReference>System.Drawing.Common</AssemblyReference>
       <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
       <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
       <AssemblyReference>System.Net.Mail</AssemblyReference>
       <AssemblyReference>System.ObjectModel</AssemblyReference>
       <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
       <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
-      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
-      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>UiPath.Workflow</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
-      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
-      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
-      <AssemblyReference>System.Security.Permissions</AssemblyReference>
-      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
-      <AssemblyReference>PresentationFramework</AssemblyReference>
-      <AssemblyReference>WindowsBase</AssemblyReference>
-      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
-      <AssemblyReference>System.ComponentModel</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
-      <AssemblyReference>NPOI</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
-      <AssemblyReference>System.Memory.Data</AssemblyReference>
-      <AssemblyReference>System.Console</AssemblyReference>
-      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="WizmiAutomation" sap:VirtualizedContainerService.HintSize="546,1229.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -140,7 +141,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable CvElementArea="1421, 281, 52, 48" CvType="Button" DesignTimeRectangle="1421, 281, 52, 48" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'msedge.exe Portail'" Guid="55f32f94-41e9-49e0-b77a-0294f802cb4a" InformativeScreenshot="f704b6ec97eab46c6efd0eefc9584911.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Portail de services - Portail de services et 1 page supplémentai*' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="1422, 269, 53, 57" FriendlyName="'msedge.exe Portail'" ImageBase64="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" SearchSteps="Image" TargetType="ImageBased" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
